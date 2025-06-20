@@ -39,4 +39,4 @@ public:
     }
 };
 
-const string Logger::logFilePath = ".minigit/logs/activity.log"; 
+const string Logger::logFilePath = ".minigit/logs/activity.log";
