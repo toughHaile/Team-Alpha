@@ -58,7 +58,7 @@ private:
             else if (inOurs && !inTheirs && !inBase) {
                 result.files[file] = ourContent;
             }
-            // Case 3: Modified in both
+            // Case 3: Modified in both.
             else if (inOurs && inTheirs) {
                 if (ourContent == theirContent) {
                     result.files[file] = ourContent;
@@ -117,7 +117,7 @@ private:
     }
 
 public:
-    // ... (existing branch management methods remain the same) ...
+    // ..(existing branch management methods remain the same) ...
 
     string merge(const string& branchName, bool autoResolve = false) {
         if (branches.find(branchName) == branches.end()) {
