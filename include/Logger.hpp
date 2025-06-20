@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// Handles logging of system activities and errors
+// Handles logging of systems activities and errors
 class Logger {
 private:
     static const string logFilePath;
