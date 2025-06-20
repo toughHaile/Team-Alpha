@@ -1,1 +1,33 @@
-"*.o\n*.exe\nbuild/" 
+# Existing rules (keep these)
+*.o
+*.exe
+build/
+
+# Add these new rules:
+# MiniGit system files
+.minigit/          # Your VCS metadata directory
+
+# Binaries and libraries
+*.a
+*.so
+*.dll
+*.out
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Debug/Test artifacts
+*.log
+test_output/
+tmp/
+*.patch
+
+# CMake/Make (if used)
+CMakeCache.txt
+CMakeFiles/
+Makefile
